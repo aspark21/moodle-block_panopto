@@ -1686,7 +1686,7 @@ class panopto_data {
 
         // If any changes where made, context needs to be flagged as dirty to be re-cached.
         if ($publisherprocessed || $creatorprocessed) {
-            $coursecontext->mark_dirty();
+         //   $coursecontext->mark_dirty();
         }
 
         self::set_course_role_mappings($courseid, $publisherroles, $creatorroles);
